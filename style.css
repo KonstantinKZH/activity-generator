@@ -1,0 +1,62 @@
+.page, button{
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(
+        180deg, 
+        rgba(0, 0, 0, 0) 
+        0%, 
+        rgba(0, 0, 0, 0.2) 
+        47.62%);
+        
+    height: 100vh;
+}
+
+.activity-generator{
+    margin: 0 auto;
+    width: 600px;
+    padding-top: 115px;
+    text-align: center;
+}
+
+.activity-generator__header{
+    margin-bottom: 66px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.activity-generator__occupation{
+    max-height:48px;
+    margin-bottom: 94px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.activity-generator__btn{
+    width: 500px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #0094FF;
+    transition: all .1s linear;
+}
+
+.activity-generator__btn:active{
+    transform: scale(0.99);
+}
+
+
+/* Модификаторы */
+.page_background{
+    background: linear-gradient(
+        180deg, 
+        rgba(0, 176, 28, 0.2) 
+        24.48%, 
+        rgba(255, 255, 255, 0) 
+        100%);
+}
