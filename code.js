@@ -12,8 +12,6 @@ const MODIFIER_CHANGE_BACKGROUND = "page_background";
 const NEW_TEXT_HEADER = "Ура, теперь не скучно";
 const NEW_CODE_EMOJI_HEADER = String.fromCodePoint(128293);
 
-URL_BORED_API
-
 headerNode.innerText = `${ELEMENTARY_CODE_EMOJI_HEADER} ${ELEMENTARY_TEXT_HEADER}`;
 occupationNode.innerText = ELEMENTARY_TEXT_OCUPATION;
 
